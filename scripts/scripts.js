@@ -28,7 +28,15 @@ let duration = 0;
 
 // INSERT YOUR CODE HERE
 
+function recalculate() {
+    let costLabel = document.getElementById("calculated-cost");
 
+    if (modelName === "XYZ") {
+        costLabel.innerHTML = duration * 100;
+    } else if (modelName === "CPRG"){
+        costLabel.innerHTML = duration * 213;
+    }
+}
 
 
 
