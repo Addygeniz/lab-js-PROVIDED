@@ -66,7 +66,7 @@ function changeModel() {
         modelName = "XYZ";
         modelText.innerHTML = "Model XYZ";
     }
-    recalculate()
+    recalculate();
 }
 modelButton.addEventListener("click", changeModel);
 
@@ -92,7 +92,7 @@ function changeDuration() {
     duration = prompt("Enter a new duration: ");
     durationText.innerHTML = duration;
 
-    recalculate()
+    recalculate();
 }
 durationButton.addEventListener("click", changeDuration);
 
